@@ -26,20 +26,21 @@ export function AppSidebar() {
         <Sidebar collapsible="icon">
             <SidebarContent className="bg-white">
                 <SidebarHeader>
-                    <Link href="/" className="flex flex-row items-center">
+                    <Link href="/" className="flex items-center space-x-2">
                         <Image
                             src="/logo.png"
                             alt="Academy Logo"
-                            width={35}
-                            height={35}>
-                        </Image>
+                            width={85}
+                            height={85}
+                        />
                         {state === "expanded" && (
-                            <span className="text-xl font-semibold text-gray-800 tracking-wide">
-                                Academy
+                            <span className="text-2xl font-bold text-gray-900 tracking-tight leading-snug">
+                                Lirys Academy
                             </span>
                         )}
                     </Link>
                 </SidebarHeader>
+
                 <SidebarGroup>
                     <SidebarGroupLabel>Platform</SidebarGroupLabel>
                     <SidebarMenu className="space-y-2">
