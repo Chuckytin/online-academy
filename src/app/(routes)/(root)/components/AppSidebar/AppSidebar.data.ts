@@ -7,17 +7,17 @@ export const routes = [
         icon: House
     },
     {
-        title: "Courses",
+        title: "Cursos",
         url: "/courses",
         icon: SquareTerminal
     },
     {
-        title: "My Courses",
+        title: "Mis Cursos",
         url: "/my-courses",
         icon: BookOpen
     },
     {
-        title: "Settings",
+        title: "Ajustes",
         url: "/settings",
         icon: Settings2
     }
@@ -25,12 +25,12 @@ export const routes = [
 
 export const routesTeacher = [
     {
-        title: "Courses",
+        title: "Cursos",
         url: "/teacher",
         icon: GraduationCap
     },
     {
-        title: "Analytics",
+        title: "Analíticas",
         url: "/teacher/analytics",
         icon: ChartArea
     }
